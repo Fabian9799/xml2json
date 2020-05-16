@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<p id="json1"></p>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery.xml2json.js"></script>
+    <script>
+        $.get('YOUR_URL', function (xml) {
+            var json = $.xml2json(xml);
+            console.log(json.channel.title);
+            document.getElementById('json1').innerHTML = json.channel.title;
+        });
+    </script>
+
+</body>
+
+</html>
