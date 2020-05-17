@@ -10,6 +10,7 @@ Useful Links:
 Rss to Json: https://codebeautify.org/xmltojson
 
 Json path finder: https://jsonpathfinder.com/
+(if the path starts with x.rss.something remove the rss part)
 
 
 
