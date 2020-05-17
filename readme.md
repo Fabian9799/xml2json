@@ -6,6 +6,12 @@ Use with jQuery
 4. ...
 5. Profit
 
+Useful Links:
+Rss to Json: https://codebeautify.org/xmltojson
+
+Json path finder: https://jsonpathfinder.com/
+
+
 
 ```js
 $.get('data/hello.xml', function(xml){
