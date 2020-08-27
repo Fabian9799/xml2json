@@ -2,7 +2,7 @@ Use with jQuery
 
 1. Load jQuery
 2. Load script file
-3. input xml url/data
+3. Input xml url/data
 4. ...
 5. Profit
 
